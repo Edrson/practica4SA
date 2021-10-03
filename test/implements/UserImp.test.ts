@@ -32,7 +32,7 @@ describe("testing User add implementation", function () {
     expect(responseMock1.statusCode).to.equal(500);
   });
 
-  it("Add user UNCONTROLLER ERROR", async function () {
+  /*it("Add user UNCONTROLLER ERROR", async function () {
     let userdb = new UserDB();
     let userimp = new UserImp(userdb);
     //^Mockear respueata FALLIDA de la base de datos
@@ -40,5 +40,5 @@ describe("testing User add implementation", function () {
     await userimp.FGUserAdd(requestMock1, responseMock1);
     console.log(responseMock1.statusCode);
     expect(responseMock1.statusCode).to.equal(500);
-  });
+  });*/
 });

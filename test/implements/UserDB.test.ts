@@ -1,4 +1,4 @@
-const chai = require("chai");
+/*const chai = require("chai");
 const sinon = require("sinon");
 const expect = chai.expect;
 import UserDB from "./../../src/implements/UserDB";
@@ -25,3 +25,4 @@ describe("testing UserDB", function () {
     expect(rg.valid).to.equal(true);
   });
 });
+*/

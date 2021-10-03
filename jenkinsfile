@@ -1,0 +1,30 @@
+pipeline {
+  agent any
+    
+ 
+    
+  stages {
+        
+    stage('Git') {
+      steps {
+        git 'https://github.com/Edrson/practica4SA'
+      }
+    }
+     
+    stage('Build') {
+      steps {
+        sh 'npm install'
+        
+      }
+    }  
+    
+            
+    stage('Test') {
+      steps {
+        sh 'npm run test'
+      }
+    }
+    
+
+  }
+}
