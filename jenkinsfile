@@ -27,12 +27,12 @@ pipeline {
     
     stage('crearDockerImage') {
       steps {
-        sh 'docker build -t ederson87/repo2:v4 .'
+        sh 'docker build -t test2 .'
       }
     }
    stage('correrDocker') {
       steps {
-        sh 'docker run -d -p 3000:3000 ederson87/repo2'
+        sh 'docker run -d -p 3000:3000 test2'
       }
     }
 
