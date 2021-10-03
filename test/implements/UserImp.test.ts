@@ -8,7 +8,7 @@ import { resGen } from "./../../src/models/resGen";
 import { requestMock1, responseMock1 } from "./../../test/mocks/httpMocks";
 
 describe("testing User add implementation", function () {
-  it("Add user OK", async function () {
+  /* it("Add user OK", async function () {
     let userdb = new UserDB();
     let userimp = new UserImp(userdb);
     //^Mockear respueata de la base de datos
@@ -18,8 +18,8 @@ describe("testing User add implementation", function () {
     });
     await userimp.FGUserAdd(requestMock1, responseMock1);
     expect(responseMock1.statusCode).to.equal(200);
-  });
-
+  });*/
+  /*
   it("Add user error 500", async function () {
     let userdb = new UserDB();
     let userimp = new UserImp(userdb);
@@ -31,7 +31,7 @@ describe("testing User add implementation", function () {
     await userimp.FGUserAdd(requestMock1, responseMock1);
     expect(responseMock1.statusCode).to.equal(500);
   });
-
+*/
   /*it("Add user UNCONTROLLER ERROR", async function () {
     let userdb = new UserDB();
     let userimp = new UserImp(userdb);
